@@ -1,0 +1,14 @@
+.DS_Store
+
+
+node_modules
+dist
+
+# env variables
+.env
+
+# yarn
+yarn-error.log
+
+# script
+bin
