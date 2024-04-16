@@ -17,7 +17,3 @@ export interface IBaseService<T> {
     deleteOne(id: string): Promise<T | null>;
 }
 
-export enum Order {
-    ASC = 'ASC',
-    DESC = 'DESC',
-}
